@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="nopcommerce Regression suite" >
+    <parameter name="browser" value="edge">
+
+    </parameter>
+    <test name="Regression Test" preserve-order="true" >
+        <classes>
+            <class name="tests.UserregisterationTest" />
+            <class name="tests.SearchProductUsingAutosuggest" />
+            <class name="tests.SearchProductTest" />
+
+            <class name="tests.HoverMenuTest" />
+            <class name="tests.AddproductToCompare" />
+            <class name="tests.MyaccountTest" />
+        </classes>
+    </test>
+
+
+</suite>

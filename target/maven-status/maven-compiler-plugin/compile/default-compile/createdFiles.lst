@@ -1,0 +1,9 @@
+Pages\PageBase.class
+org\example\Main.class
+Pages\ProductDetailsPage.class
+Pages\ComparePage.class
+Pages\LoginPage.class
+Pages\HomePage.class
+Pages\MyaccountPage.class
+Pages\SearchPage.class
+Pages\UserRegisterationPage.class

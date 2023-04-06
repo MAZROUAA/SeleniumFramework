@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [nopcommerce Regression suite]" verbose="0">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Regression Test(failed)" verbose="0">
+    <classes>
+      <class name="tests.AddproductToCompare">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="userClearCompare"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+          <include name="userCanCompareProducts"/>
+        </methods>
+      </class> <!-- tests.AddproductToCompare -->
+      <class name="tests.UserregisterationTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="userRegisterSuccesfully"/>
+          <include name="RegisteredUserCanLgoin"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+          <include name="RegisteredUserCanLogout"/>
+        </methods>
+      </class> <!-- tests.UserregisterationTest -->
+      <class name="tests.SearchProductTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="UserCanSearchProducts"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.MyaccountTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="userRegisterSuccesfully"/>
+          <include name="RegisteredUserCanLgoin"/>
+          <include name="changePassTest"/>
+          <include name="RegisteredUserCanLogout"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.MyaccountTest -->
+      <class name="tests.SearchProductUsingAutosuggest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="userSearchUsingAutosuggest"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+        </methods>
+      </class> <!-- tests.SearchProductUsingAutosuggest -->
+      <class name="tests.HoverMenuTest">
+        <methods>
+          <include name="stopdriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="startdriver"/>
+          <include name="UserCanHoverAndSelect"/>
+        </methods>
+      </class> <!-- tests.HoverMenuTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce Regression suite] -->
