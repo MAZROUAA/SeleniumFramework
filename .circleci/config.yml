@@ -34,6 +34,5 @@ workflows:
   buildmvn:
     jobs:
       - build
-      - test:
-          requires : 
-              - build
+      - test
+       
