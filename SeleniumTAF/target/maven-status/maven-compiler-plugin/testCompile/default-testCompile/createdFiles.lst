@@ -1,0 +1,8 @@
+tests\SearchProductUsingAutosuggest.class
+tests\UserregisterationTest.class
+tests\HoverMenuTest.class
+tests\AddproductToCompare.class
+tests\SearchProductTest.class
+tests\TestBase.class
+utilityhelper\Helper.class
+tests\MyaccountTest.class
