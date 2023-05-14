@@ -1,0 +1,23 @@
+version: 2.1
+
+# Orchestrate or schedule a set of jobs
+jobs:
+  print_hello_world:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo helloworld
+  print_MyName:
+    docker:
+      - image: circleci/node:13.8.0
+    steps:
+      - run: echo mazrouaa
+workflows:
+  # Name the workflow "welcome"
+  welcome:
+    # Run the welcome/run job in its own container
+    jobs:
+      - print_hello_world
+      - print_MyName:
+          requires:
+            - print_hello_world
